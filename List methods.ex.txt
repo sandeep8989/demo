@@ -1,0 +1,122 @@
+#append:
+=========
+
+a = ["sandeep", "praveen", "akhil"]
+b = ["897", "808", "9313"]
+a.append(b)
+print(a)
+
+output:
+======
+['sandeep', 'praveen', 'akhil', ['897', '808', '9313']]
+-----------------------------------------------------------------------------------------------------------
+
+clear:
+======
+a = ["sandeep", "praveen", "akhil"]
+a.clear()
+print(a)
+
+output:
+======
+[]
+------------------------------------------------------------------------------------------------------------
+
+#copy:
+======
+a = ["sandeep", "praveen", "akhil"]
+a.copy()
+print(a)
+
+output:
+=====
+['sandeep', 'praveen', 'akhil']
+---------------------------------------------------------------------------------------------------------
+
+#count:
+=======
+
+names = ["sandeep", "praveen", "akhil"]
+a = names.count("sandeep")
+print(a)
+
+output:
+======
+1
+--------------------------------------------------------------------------------------------------------------
+#extend:
+=======
+names = ["sandeep","praveen","akhil"]
+numbers = ["89", "harish", "giri"]
+names.extend(numbers)
+print(names)
+
+output:
+======
+['sandeep', 'praveen', 'akhil', '89', 'harish', 'giri']
+-----------------------------------------------------------------------------------------------------------
+#index:
+=======
+
+names = ["sandeep","praveen","akhil"]
+a = names.index("akhil")
+print(a)
+
+output:
+======
+2
+-----------------------------------------------------------------------------------------------------------
+#insert:
+=======
+names = ["sandeep","praveen","akhil"]
+names.insert(3,"giri")
+print(names)
+
+output:
+=======
+
+['sandeep', 'praveen', 'akhil', 'giri']
+---------------------------------------------------------------------------------------------
+#pop:
+=====
+
+names = ["sandeep","praveen","akhil"]
+names.pop(1)
+print(names)
+
+output:
+======
+['sandeep', 'akhil']
+------------------------------------------------------------------------------------------------------
+#remove:
+=======
+
+names = ["sandeep","praveen","akhil"]
+names.remove("akhil")
+print(names)
+
+output:
+=======
+['sandeep', 'praveen']
+--------------------------------------------------------------------------------------------------------------
+#reverse:
+=========
+names = ["sandeep","praveen","akhil"]
+names.reverse()
+print(names)
+
+output:
+=======
+
+['akhil', 'praveen', 'sandeep']
+----------------------------------------------------------------------------------------
+#sort:
+=====
+names = ["sandeep","praveen","akhil"]
+names.sort()
+print(names)
+
+output:
+======
+['akhil', 'praveen', 'sandeep']
+---------------------------------------------------------------------------------------------

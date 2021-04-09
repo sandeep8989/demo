@@ -1,0 +1,19 @@
+#count:
+=======
+a = ("sandeep","praveen","akhil","giri","vinod")
+b = a.count("sandeep")
+print(b)
+
+output:
+========
+1
+-------------------------------------------------------------------------------------
+#index:
+=======
+a = ("vinod","sandeep","naveen",1,2,3,4)
+b = a.index("naveen")
+print(b)
+
+output:
+======
+2
